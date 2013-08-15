@@ -70,6 +70,8 @@ class CityAdmin(admin.ModelAdmin):
         'name',
         'region',
         'country',
+        'latitude',
+        'longitude',
     )
     search_fields = (
         'search_names',
